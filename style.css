@@ -1,3 +1,6 @@
+* {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
 body{
     background-color: #263954;
 }
@@ -22,7 +25,6 @@ nav {
     opacity: .75;
     position: relative;
     font-size: 64px;
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     text-decoration: none;
     color: #76ADFF;
 }
@@ -46,4 +48,37 @@ bottom: 0px;
 
 .nav-link:hover::before {
 width: 100%;
+}
+
+
+/* Hackthons Page */
+.hackathons_title {
+    display: flex;
+    justify-content: center;
+    color: #FFE193;
+    font-size: 48px;
+}
+.hackathon-card{
+    background-color: #2E548E;
+    width: 1400px;
+    border-radius: 15px;
+}
+.upper-part-hackathons-cards {
+    display: flex;
+    flex-direction: row;
+    padding: 10px 15px;
+}
+.city {
+    color: #FFF2DE;
+    display: flex;
+    justify-content: end;
+    width: 1400px;
+    margin-right: 
+}
+.country {
+    font-size: ;
+}
+.hackathons-card-contact-info {
+    color: #FFF2DE;
+    font-size: 32px;
 }
