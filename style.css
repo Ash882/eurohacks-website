@@ -41,17 +41,17 @@ transition: 500ms;
 height: 5px;
 content: "";
 position: absolute;
-background-color: rgb(2, 158, 225);
+background-color: rgb(163, 227, 255);
 width: 0%;
 bottom: 0px;
 }
 
 .nav-link:hover::before {
-width: 100%;
+    width: 100%;
 }
 
-
 /* Hackthons Page */
+
 .hackathons_title {
     display: flex;
     justify-content: center;
@@ -61,6 +61,7 @@ width: 100%;
 .hackathon-card{
     background-color: #2E548E;
     width: 90vw;
+    margin: 5vw 4vw;
     border-radius: 15px;
     justify-content: center;
 }
@@ -78,38 +79,39 @@ width: 100%;
     display: flex;
     flex-direction: column;
     justify-content: center;
-    align-items: end;
+    align-items: center;
 }
 .flag-country {
     display: flex;
     flex-direction: row;
+    margin: 10px 10px;
+    color: #FFF2DE;
 }
-
 
 .buttons {
     display: flex;
     justify-content: end;
     align-items: end;
-    padding: 10px 15px;
+    margin: 30px 10px 10px 10px;
 }
 button {
-    height: 120px;
-    width: 270px;
+    height: 160px;
+    width: 360px;
     font-size: 42px;
     margin: 0px 10px;
     background-color: #76ADFF;
     border-radius: 10px;
 }
 button:hover {
-    height: 120px;
-    width: 270px;
+    height: 160px;
+    width: 360px;
     font-size: 42px;
     background-color: #99C2FF;
     border-radius: 10px;
 }
 button:active {
-    height: 120px;
-    width: 270px;
+    height: 160px;
+    width: 360px;
     font-size: 42px;
     background-color: #D3E4FF;
     border-radius: 10px;
@@ -117,6 +119,7 @@ button:active {
 .city {
     color: #FFF2DE;
     display: flex;
+    font-size: 42px;
     justify-content: end;
     margin-right: 10%;
 }
@@ -126,6 +129,75 @@ button:active {
 }
 .contact-info {
     color: #FFF2DE;
-    font-size: 32px;
+    font-size: 42px;
     margin: 10px 20px;
+}
+
+@media only screen and (max-width: 1380px) {
+    button {
+        height: 80px;
+        width: 200px;
+        font-size: 28px;
+    }
+    button:hover {
+        height: 80px;
+        width: 200px;
+        font-size: 28px;
+    }
+    button:active {
+        height: 80px;
+        width: 200px;
+        font-size: 28px;
+    }
+    .city {
+        font-size: 32px;
+    }
+    .country {
+        font-size: 50px;
+    }
+    .contact-info {
+        font-size: 28px;
+    }
+}
+@media only screen and (max-width: 958px) {
+    button {
+        height: 80px;
+        width: 200px;
+        font-size: 28px;
+    }
+    button:hover {
+        height: 80px;
+        width: 200px;
+        font-size: 28px;
+    }
+    button:active {
+        height: 80px;
+        width: 200px;
+        font-size: 28px;
+    }
+    .city {
+        font-size: 32px;
+    }
+    .country {
+        color: #01ff45;
+        font-size: 50px;
+    }
+    .contact-info {
+        font-size: 28px;
+    }
+}
+
+
+@media only screen and (max-width: 1450px) {
+    .nav-link{
+        font-size: 42px;
+    }
+}
+@media only screen and (max-width: 1000px) {
+    .navbar {
+        background-color: #01ff45;
+    }
+    .nav-link{
+        font-size: 42px;
+    }
 }
