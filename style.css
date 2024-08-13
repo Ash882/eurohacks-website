@@ -170,12 +170,20 @@ i {
     font-size: 36px;
     margin: 10px 40px;
 }
+.ho-card {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
 .head-orga-card {
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
     justify-content: center;
+    align-items: center;
     margin-top: 50px;
     background-color: #76ADFF;
+    width: 80vw;
+    border-radius: 15px;
 }
 .upper-part-head-orga-card{
     display: flex;
@@ -189,9 +197,45 @@ i {
 .title-head-orga {
     font-size: 50px;
 }
-.image-ho-1 {
+.head-orga {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 0px 10px;
+}
+.image-ho {
     width: 25vw;
     height: 18vw;
+    border-radius: 10px;
+}
+.head-orgas {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+/* Head Organizer 1 */
+
+.info-about-ho {
+    width: 25vw;
+}
+.name-of-ho {
+    width: 24vw;
+    color: #FFF2DE;
+    background-color: #99C2FF;   
+    text-align: center;
+    padding: 0.5vw 0.51vw;
+    border-radius: 10px 10px 0px 0px;
+}
+.text-about-ho {
+    margin-top: -22px;
+    background-color: #2E548E;
+    border-radius: 0px 0px 10px 10px;
+    font-size: 24px;
+}
+.text {
+    margin: 0px 20px;
 }
 
 @media only screen and (max-width: 1380px) {
