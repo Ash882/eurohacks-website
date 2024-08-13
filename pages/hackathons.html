@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <html>
     <head>
+        <script src="https://kit.fontawesome.com/53a136327d.js" crossorigin="anonymous"></script>
         <link rel="stylesheet" href="/style.css">
         <title> Eurohacks - Hackathons</title>
     </head>
@@ -8,23 +9,23 @@
         <nav>
             <ul class="navbar">
                 <li class="navbar-item">
-                <a href="/home-page-light.html" aria-label="Eurohacks"><img src="/media/Banner.png" alt="Logo" width="100px"/></a>
+                    <a href="/home-page-light.html" aria-label="Eurohacks"><img src="/media/Banner.png" alt="Logo" width="100px"/></a>
                 </li>
                 <li class="nav-link">
-                <i class= "fa-regular fa-house" ></i>
-                <a href= "/"> <slot class="navbar-item"> Home Page </slot> </a>
+                    <i class= "fa-solid fa-house"></i>
+                    <a href= "/index.html"> <slot class="navbar-item"> Home Page </slot> </a>
                 </li>
                 <li class="nav-link">
-                <i class= "fa-regular fa-book" ></i>
-                <a href= "/pages/hackathons.html"> <slot class="navbar-item"> Hackathons </slot> </a>
+                    <i class="fa-solid fa-laptop-code" ></i>
+                    <a href= "/"> <slot class="navbar-item"> Hackathons </slot> </a>
                 </li>
                 <li class="nav-link">
-                <i class= "fa-regular fa-newspaper" ></i>
-                <a href= "/pages/about_us.html"> <slot class="navbar-item"> About us </slot> </a>
+                    <i class="fa-solid fa-people-group" ></i>
+                    <a href= "/pages/about_us.html"> <slot class="navbar-item"> About us </slot> </a>
                 </li>
                 <li class="nav-link">
-                <i class= "fa-regular fa-circle-info" ></i>
-                <a href= "/pages/hack_club.html"> <slot class="navbar-item"> Hack Club</slot> </a>
+                    <img src="https://assets.hackclub.com/icon-rounded.svg" width="45px">
+                    <a href= "/pages/hack_club.html"> <slot class="navbar-item"> Hack Club</slot> </a>
                 </li>
             </ul>
         </nav>
@@ -39,17 +40,17 @@
                         <div class="country"> Greece </div>
                     </div>
                     <div class="contact-info">
-                        <br> Mail: greece@eurohakcs.org
-                        <br> Telephone: +30 69********
-                        <br> Discord: "placeholder"
+                        <br> <i class="fa-solid fa-envelope"></i> Mail: greece@eurohakcs.org
+                        <br> <i class="fa-solid fa-phone"></i> Telephone: +30 69********
+                        <br> <i class="fa-brands fa-discord"></i> Discord: "placeholder"
                     </div>
                 </div>
 
                 <div class="right-half-hackathons-cards">
-                    <h1 class="city"> ``icon`` Peraia, Thessaloniki </h1>
+                    <h1 class="city"> <i class="fa-solid fa-location-dot"> </i> Peraia, Thessaloniki </h1>
                     <div class="buttons">
-                        <a> <button> More information </button> </a>
-                        <a> <button> Participate </button> </a>
+                        <a> <button> <i class="fa-solid fa-circle-info" id="button-icons"> </i> More information </button> </a>
+                        <a> <button> <i class="fa-solid fa-user" id="button-icons"> </i> Participate </button> </a>
                     </div>
                 </div>
             </div>

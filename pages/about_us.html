@@ -1,10 +1,33 @@
 <!DOCTYPE html>
 <html>
     <head>
-        <link rel="stylesheet" href="style.css">
-        <title> Eurohacks - About Us </title>
+        <script src="https://kit.fontawesome.com/53a136327d.js" crossorigin="anonymous"></script>
+        <link rel="stylesheet" href="/style.css">
+        <title> Eurohacks - Hackathons</title>
     </head>
     <body>
-
+        <nav>
+            <ul class="navbar">
+                <li class="navbar-item">
+                    <a href="/home-page-light.html" aria-label="Eurohacks"><img src="/media/Banner.png" alt="Logo" width="100px"/></a>
+                </li>
+                <li class="nav-link">
+                    <i class= "fa-solid fa-house"></i>
+                    <a href= "/index.html"> <slot class="navbar-item"> Home Page </slot> </a>
+                </li>
+                <li class="nav-link">
+                    <i class="fa-solid fa-laptop-code" ></i>
+                    <a href= "/pages/hackathons.html"> <slot class="navbar-item"> Hackathons </slot> </a>
+                </li>
+                <li class="nav-link">
+                    <i class="fa-solid fa-people-group" ></i>
+                    <a href= "/pages/about_us.html"> <slot class="navbar-item"> About us </slot> </a>
+                </li>
+                <li class="nav-link">
+                    <img src="https://assets.hackclub.com/icon-rounded.svg" width="45px">
+                    <a href= "/pages/hack_club.html"> <slot class="navbar-item"> Hack Club</slot> </a>
+                </li>
+            </ul>
+        </nav>
     </body>
 </html>

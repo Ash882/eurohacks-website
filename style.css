@@ -24,7 +24,7 @@ nav {
     font-weight: 700;
     opacity: .75;
     position: relative;
-    font-size: 64px;
+    font-size: 50px;
     text-decoration: none;
     color: #76ADFF;
 }
@@ -33,11 +33,11 @@ nav {
 }
 .nav-link:hover {
     opacity: 1;
-    color: azure
+    color: #76ADFF;
 }
 
 .nav-link::before {
-transition: 500ms;
+transition: 1000ms;
 height: 5px;
 content: "";
 position: absolute;
@@ -93,6 +93,7 @@ bottom: 0px;
     justify-content: end;
     align-items: end;
     margin: 30px 10px 10px 10px;
+    font-size: 42px;
 }
 button {
     height: 160px;
@@ -129,11 +130,25 @@ button:active {
 }
 .contact-info {
     color: #FFF2DE;
-    font-size: 42px;
+    font-size: 38px;
     margin: 10px 20px;
 }
 
+i {
+    margin-right: 6px;
+}
+
+#button-icons {
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    transform: translateY(-60%);
+}
+
 @media only screen and (max-width: 1380px) {
+    .buttons {
+        font-size: 28px;
+    }
     button {
         height: 80px;
         width: 200px;
@@ -193,11 +208,14 @@ button:active {
         font-size: 42px;
     }
 }
-@media only screen and (max-width: 1000px) {
-    .navbar {
-        background-color: #01ff45;
-    }
+@media only screen and (max-width: 1200px) {
     .nav-link{
-        font-size: 42px;
+        font-size: 36px;
+    }
+}
+@media only screen and (max-width: 1050px) {
+    .navbar {
+        flex-direction: column;
+        background-color: #0dd61a;
     }
 }
