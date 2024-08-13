@@ -145,6 +145,55 @@ i {
     transform: translateY(-60%);
 }
 
+/* About Us page */
+
+.our-goal-card {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-top: 50px;
+}
+.our-goal { 
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #76ADFF;
+    border-radius: 15px;
+    height: fit-content;
+    width: 80vw;
+}
+.title-our-goal {
+    font-size: 50px;
+}
+.text-our-goal {
+    text-align: justify;
+    font-size: 36px;
+    margin: 10px 40px;
+}
+.head-orga-card {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-top: 50px;
+    background-color: #76ADFF;
+}
+.upper-part-head-orga-card{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    border-radius: 15px;
+    height: fit-content;
+    width: 80vw;
+}
+.title-head-orga {
+    font-size: 50px;
+}
+.image-ho-1 {
+    width: 25vw;
+    height: 18vw;
+}
+
 @media only screen and (max-width: 1380px) {
     .buttons {
         font-size: 28px;
