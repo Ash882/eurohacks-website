@@ -204,11 +204,6 @@ i {
     align-items: center;
     margin: 0px 10px;
 }
-.image-ho {
-    width: 25vw;
-    height: 18vw;
-    border-radius: 10px;
-}
 .head-orgas {
     display: flex;
     flex-direction: row;
@@ -227,7 +222,14 @@ i {
     text-align: center;
     padding: 0.5vw 0.51vw;
     border-radius: 10px 10px 0px 0px;
+    font-size: 32px;
 }
+@media only screen and (max-width: 1320px) {
+    .name-of-ho { 
+        font-size: 26px;
+    }
+}
+
 .text-about-ho {
     margin-top: -22px;
     background-color: #2E548E;
@@ -236,6 +238,25 @@ i {
 }
 .text {
     margin: 0px 20px;
+    color: #FFF2DE;
+}
+
+
+.ho-image-country { 
+    position: relative; 
+}
+.image-ho { 
+    display: block;
+    width: 25vw;
+    height: 18vw;
+    border-radius: 10px;
+}
+.home-country { 
+    position: absolute;
+    width: 60px;
+    height: 60px;
+    top: 5px; 
+    left: 5px; 
 }
 
 @media only screen and (max-width: 1380px) {
