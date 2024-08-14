@@ -258,6 +258,15 @@ i {
     top: 5px; 
     left: 5px; 
 }
+/* Hack Club page */
+
+.hack-club-title {
+    display: flex;
+    justify-content: center;
+    color: #FFE193;
+    font-size: 100px;
+    margin-top: 40px;
+}
 
 @media only screen and (max-width: 1380px) {
     .buttons {
